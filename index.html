@@ -1,0 +1,485 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SKEMA | Sistem Kepegawaian Mandiri</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"> -->
+    <!-- Google Fonts
+		============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- owl.carousel CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <!-- animate CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- normalize CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- meanmenu icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- main CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- morrisjs CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <!-- style CSS
+		============================================ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr JS
+		============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="left-sidebar-pro">
+        <nav id="sidebar" class="">
+            <div class="sidebar-header">
+                <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                <!-- <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a> -->
+                <strong><img src="img/logo/logosn.png" alt="" /></strong>
+            </div>
+            <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                <nav class="sidebar-nav left-sidebar-menu-pro">
+                    <ul class="metismenu" id="menu1">
+                        <li class="active">
+                            <a class="has-arrow" href="index.html">
+								   <i class="fa big-icon fa-home icon-wrap"></i>
+								   <span class="mini-click-non">Home</span>
+								</a>
+                            <ul class="submenu-angle" aria-expanded="true">
+                                <li><a title="Product List" href="#"><i class="fa fa-female sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Proses Izin Belajar</span></a></li>
+                                <li><a title="Product List" href="#"><i class="fa fa-female sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Usul Cuti</span></a></li>
+                                <li><a title="Product List" href="#"><i class="fa fa-female sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Validasi Cuti</span></a></li>
+                                <li><a data-toggle="collapse" data-target="#submenu2" title="Product List" href="#"><i class="fa fa-female sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Approval Cuti</span></a></li>  
+                                    <!-- Submenu added here -->
+                                    <ul id="submenu2" class="collapse submenu-angle" aria-expanded="false">
+                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Atasan Langsung</span></a></li>
+                                        <li><a title="Sub Item 2" href="#"><span class="mini-sub-pro">Ketua/PPK</span></a></li>
+                                    </ul>
+                                <li><a title="Product Edit" href="#"><i class="fa fa-bolt sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Presensi Kehadiran</span></a></li>
+                                <li><a title="Product Edit" href="#"><i class="fa fa-bolt sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Presensi Apel</span></a></li>
+                                <li><a title="Product Detail" href="#"><i class="fa fa-heart-o sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Rapat</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="has-arrow" href="#" aria-expanded="false"><i class="fa big-icon fa-envelope icon-wrap"></i> <span class="mini-click-non">Control Panel</span></a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                                <li><a  data-toggle="collapse" data-target="#submenu3" title="Inbox" href="#"><i class="fa fa-inbox sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">user Pages</span></a></li>
+                                    <ul id="submenu3" class="collapse submenu-angle" aria-expanded="false">
+                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">User Profile</span></a></li>
+                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Pengaturan Users</span></a></li>
+                                    </ul>
+                                </li>
+                                <li><a  data-toggle="collapse" data-target="#submenu4" title="Inbox" href="#"><i class="fa fa-inbox sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Laporan Absensi</span></a></li>
+                                    <ul id="submenu4" class="collapse submenu-angle" aria-expanded="false">
+                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">lihat Data Absen</span></a></li>
+                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">lihat Data Apel</span></a></li>
+                                    </ul>
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#submenu5" title="View Mail" href="#"><i class="fa fa-television sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Data Cuti</span></a></li>
+                                <ul id="submenu5" class="collapse submenu-angle" aria-expanded="false">
+                                    <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Saldo Cuti</span></a></li>
+                                    <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Atur Saldo Cuti</span></a></li>
+                                </ul>
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#submenu6" title="View Mail" href="#"><i class="fa fa-television sub-icon-mg" aria-hidden="true"></i> <span class="mini-sub-pro">Atur Rapat</span></a></li>
+                                <ul id="submenu6" class="collapse submenu-angle" aria-expanded="false">
+                                    <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Data Rapat</span></a></li>
+                                    <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Laporan</span></a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a title="Landing Page" href="#" aria-expanded="false"><i class="fa fa-bookmark icon-wrap sub-icon-mg" aria-hidden="true"></i> <span class="mini-click-non">Log Out</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <!-- Start Welcome area -->
+    <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                        <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-advance-area">
+            <div class="header-top-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="header-top-wraper">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                                        <div class="menu-switcher-pro">
+                                            <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
+													<i class="fa fa-bars"></i>
+												</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
+
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <div class="header-right-info">
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+
+
+                                                <li class="nav-item">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+															<i class="fa fa-user adminpro-user-rounded header-riht-inf" aria-hidden="true"></i>
+															<span class="admin-name">User</span>
+															<i class="fa fa-angle-down adminpro-icon adminpro-down-arrow"></i>
+														</a>
+                                                    <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                        <!-- <li><a href="register.html"><span class="fa fa-home author-log-ic"></span>Register</a>
+                                                        </li> -->
+                                                        <li><a href="#"><span class="fa fa-user author-log-ic"></span>My Profile</a>
+                                                        </li>
+                                                        <!-- <li><a href="lock.html"><span class="fa fa-diamond author-log-ic"></span> Lock</a>
+                                                        </li> -->
+                                                        <li><a href="#"><span class="fa fa-cog author-log-ic"></span>Settings</a>
+                                                        </li>
+                                                        <li><a href="login.html"><span class="fa fa-lock author-log-ic"></span>Log Out</a>
+                                                        </li>
+                                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <!-- Mobile Menu start -->
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul class="mobile-menu-nav">
+                                        <li><a data-toggle="collapse" data-target="#Charts" href="#">Home<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+                                            <ul class="collapse dropdown-header-top">
+                                                <li><a href="#">Proses Izin Belajar</a></li>
+                                                <li><a href="#">Usul Cuti</a></li>
+                                                <li><a href="#">Validasi Cuti</a></li>
+                                                <li>
+                                                    <a data-toggle="collapse" data-target="#submenu" href="#">Approval Cuti<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+                                                    <!-- Submenu added here -->
+                                                    <ul id="submenu" class="collapse submenu-angle" aria-expanded="false">
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Atasan Langsung</span></a></li>
+                                                        <li><a title="Sub Item 2" href="#"><span class="mini-sub-pro">Ketua/PPK</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Presensi Apel</a></li>
+                                                <li><a href="#">Rapat</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Presensi Kehadiran</a></li>
+                                        <li><a href="#">Presensi Rapat</a></li>
+                                        <li><a data-toggle="collapse" data-target="#demo" href="#">Control Panel<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+                                            <ul id="demo" class="collapse dropdown-header-top">
+                                                <li>
+                                                    <a data-toggle="collapse" data-target="#submenu" href="#">User Pages<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+                                                    <!-- Submenu added here -->
+                                                    <ul id="submenu" class="collapse submenu-angle" aria-expanded="false">
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">View Profile</span></a></li>
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Pengaturan Users</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a data-toggle="collapse" data-target="#submenu" href="#">Laporan Absensi<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+                                                    <!-- Submenu added here -->
+                                                    <ul id="submenu" class="collapse submenu-angle" aria-expanded="false">
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Lihat Data Absen</span></a></li>
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Lihat Data Apel</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a data-toggle="collapse" data-target="#submenu2" href="#">Data Cuti<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+                                                    <!-- Submenu added here -->
+                                                    <ul id="submenu2" class="collapse submenu-angle" aria-expanded="false">
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Saldo Cuti</span></a></li>
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Atur Saldo Cuti</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a data-toggle="collapse" data-target="#submenu2" href="#">Atur Rapat<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+                                                    <!-- Submenu added here -->
+                                                    <ul id="submenu2" class="collapse submenu-angle" aria-expanded="false">
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Data Rapat</span></a></li>
+                                                        <li><a title="Sub Item 1" href="#"><span class="mini-sub-pro">Laporan</span></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Log Out</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu end -->
+            <div class="breadcome-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="breadcome-list">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <ul class="breadcome-menu">
+                                            <li><a href="#">Home</a> <span class="bread-slash">/</span>
+                                            </li>
+                                            <li><span class="bread-blod">Dashboard</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- CONTENT -->
+        <div class="section-admin container-fluid">
+            <div class="row admin text-center">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="admin-content analysis-progrebar-ctn res-mg-t-15">
+                                <h4 class="text-left text-uppercase"><b>Usul Cuti</b></h4>
+                                <div class="row vertical-center-box vertical-center-box-tablet">
+                                    <div class="col-xs-3 mar-bot-15 text-left">
+                                        <a href="#" class="btn btn-primary">Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="admin-content analysis-progrebar-ctn res-mg-t-15">
+                                <h4 class="text-left text-uppercase"><b>Inbox</b></h4>
+                                <div class="row vertical-center-box vertical-center-box-tablet">
+                                    <div class="col-xs-3 mar-bot-15 text-left">
+                                        <a href="#" class="btn btn-primary">Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Static Table Start -->
+        <div class="data-table-area mg-tb-15">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="sparkline13-list">
+                            <div class="sparkline13-hd">
+                                <div class="main-sparkline13-hd">
+                                    <h1>Products <span class="table-project-n">Data</span> Table</h1>
+                                </div>
+                            </div>
+                            <div class="sparkline13-graph">
+                                <!-- <div class="datatable-dashv1-list custom-datatable-overright"> -->
+                                <!-- <div class="datatable-dashv1-list custom-datatable-overright">
+                                    <div id="toolbar">
+                                        <select class="form-control">
+												<option value="">Export Basic</option>
+												<option value="all">Export All</option>
+												<option value="selected">Export Selected</option>
+											</select>
+                                    </div>
+                                    <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
+                                        data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar"> -->
+                                    <table data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-resizable="true" 
+                                        data-show-export="true" data-click-to-select="true" >
+                                        <thead>
+                                            <tr>
+                                                <!-- <th data-field="state" data-checkbox="true"></th> -->
+                                                <th data-field="id">ID</th>
+												<th data-field="date">Tanggal Cuti</th>
+                                                <th data-field="name">Jenis Cuti</th>
+                                                <th data-field="company">Alasan Cut</th>
+                                                <th data-field="price">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <!-- <td></td> -->
+                                                <td>1</td>
+												<td>2024-05-31</td>
+                                                <td>CT</td>
+                                                <td>Istirahat</td>
+                                                <td><button class="btn btn-success">Approved</button></td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <td></td> -->
+                                                <td>2</td>
+												<td>2024-05-11</td>
+                                                <td>CT</td>
+                                                <td>Sakit</td>
+                                                <td><button class="btn btn-warning">waiting</button></td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <td></td> -->
+                                                <td>3</td>
+												<td>2024-05-01</td>
+                                                <td>CT</td>
+                                                <td>Sakit</td>
+                                                <td><button class="btn btn-danger">Rejected</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Static Table End -->
+
+        <!-- END CONTENT -->
+
+
+        <div class="footer-copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right text-right">
+                            <p>
+                                Copyright &copy; 2024 <a href="https://colorlib.com/wp/templates/">Delakbar</a> Power By
+                                <a href="https://colorlib.com/wp/templates/">Bootstrap Colorlib</a>
+                                All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- jquery
+		============================================ -->
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+        <!-- bootstrap JS
+            ============================================ -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow JS
+            ============================================ -->
+        <script src="js/wow.min.js"></script>
+        <!-- price-slider JS
+            ============================================ -->
+        <script src="js/jquery-price-slider.js"></script>
+        <!-- meanmenu JS
+            ============================================ -->
+        <script src="js/jquery.meanmenu.js"></script>
+        <!-- owl.carousel JS
+            ============================================ -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- sticky JS
+            ============================================ -->
+        <script src="js/jquery.sticky.js"></script>
+        <!-- scrollUp JS
+            ============================================ -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <!-- mCustomScrollbar JS
+            ============================================ -->
+        <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+        <!-- metisMenu JS
+            ============================================ -->
+        <script src="js/metisMenu/metisMenu.min.js"></script>
+        <script src="js/metisMenu/metisMenu-active.js"></script>
+        <!-- data table JS
+            ============================================ -->
+        <script src="js/data-table/bootstrap-table.js"></script>
+        <script src="js/data-table/tableExport.js"></script>
+        <script src="js/data-table/data-table-active.js"></script>
+        <script src="js/data-table/bootstrap-table-editable.js"></script>
+        <script src="js/data-table/bootstrap-editable.js"></script>
+        <script src="js/data-table/bootstrap-table-resizable.js"></script>
+        <script src="js/data-table/colResizable-1.5.source.js"></script>
+        <script src="js/data-table/bootstrap-table-export.js"></script>
+        <!--  editable JS
+            ============================================ -->
+        <script src="js/editable/jquery.mockjax.js"></script>
+        <script src="js/editable/mock-active.js"></script>
+        <script src="js/editable/select2.js"></script>
+        <script src="js/editable/moment.min.js"></script>
+        <script src="js/editable/bootstrap-datetimepicker.js"></script>
+        <script src="js/editable/bootstrap-editable.js"></script>
+        <script src="js/editable/xediable-active.js"></script>
+        <!-- Chart JS
+            ============================================ -->
+        <script src="js/chart/jquery.peity.min.js"></script>
+        <script src="js/peity/peity-active.js"></script>
+        <!-- tab JS
+            ============================================ -->
+        <script src="js/tab.js"></script>
+        <!-- plugins JS
+            ============================================ -->
+        <script src="js/plugins.js"></script>
+        <!-- main JS
+            ============================================ -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
